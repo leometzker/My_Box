@@ -3,8 +3,7 @@ import { HeaderStyle } from './HeaderStyle'
 export function Header() {
   return (
     <HeaderStyle>
-      Meu header
-      <p>outra coisa</p>
+      <h3>Header com Styled-Components</h3>
     </HeaderStyle>
   )
 }
