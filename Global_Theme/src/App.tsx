@@ -32,7 +32,24 @@ export function App() {
       <ThemeProvider theme={tema}>
         <GlobalStyle />
         <Header />
-        <h1>Alterando o tema da aplicação</h1>
+
+        <ul>
+          <li>
+            <h1>styled-components</h1>
+          </li>
+          <li>
+            <h1>tema global</h1>
+          </li>
+          <li>
+            <h1>tipagem do tema</h1>
+          </li>
+          <li>
+            <h1>local storage</h1>
+          </li>
+          <li>
+            <h1>useState | useEffect</h1>{' '}
+          </li>
+        </ul>
         <ChangeButton handleChangeTheme={handleChangeTheme} />
       </ThemeProvider>
     </>

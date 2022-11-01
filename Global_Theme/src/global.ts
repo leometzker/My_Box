@@ -13,12 +13,17 @@ export const GlobalStyle = createGlobalStyle`
     display: flex;
     justify-content: center;
     
+    ul {
 
-    h1 {
-      font-size: 2.5rem;
       display: flex;
+      flex-direction: column;
       justify-content: center;
-      margin-top: 1.5rem;
+      align-items: center;
+    }
+
+    li {
+      font-size: 1rem;
+      margin: 1.5rem;
     }
   }
  `
