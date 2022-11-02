@@ -17,6 +17,7 @@ export function App() {
               <ProtectedLayout>
                 <div>
                   <h2>Ola este é o componente profile</h2>
+                  <button onClick={auth.logout}>Sair</button>
                   <Button onClick={auth.logout}>LOG OUT</Button>
                 </div>
               </ProtectedLayout>
